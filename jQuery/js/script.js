@@ -2,6 +2,9 @@
 
 $(function() {
 
-    alert("Hello?");
+    //alert("Hello?");
+        $('button').click(function() {
+            $('#box').fadeOut(1000);
+        });
 
 });
